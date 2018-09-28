@@ -145,3 +145,59 @@
   - Squid
   Severity: Outage
   StartTime: Mar 5, 2018 20:00 PM UTC
+- Class: SCHEDULED
+  ID: 31356827
+  Description: Changeover of internal and external network path
+  Severity: Outage
+  StartTime: Sep 30, 2018 07:00 +0000
+  EndTime: Sep 30, 2018 12:00 +0000
+  CreatedTime: Sep 28, 2018 06:54 +0000
+  ResourceName: UTA_SWT2
+  Services:
+  - CE
+  - GridFtp
+# ---------------------------------------------------------
+- Class: SCHEDULED
+  ID: 31357921
+  Description: Changeover of internal and external network path
+  Severity: Outage
+  StartTime: Sep 30, 2018 07:00 +0000
+  EndTime: Sep 30, 2018 12:00 +0000
+  CreatedTime: Sep 28, 2018 06:56 +0000
+  ResourceName: UTA_SWT2_SE
+  Services:
+  - SRMv2
+# ---------------------------------------------------------
+- Class: SCHEDULED
+  ID: 31358205
+  Description: Changeover of internal and external network path
+  Severity: Outage
+  StartTime: Sep 30, 2018 07:00 +0000
+  EndTime: Sep 30, 2018 12:00 +0000
+  CreatedTime: Sep 28, 2018 06:57 +0000
+  ResourceName: UTA_SWT2_Squid
+  Services:
+  - Squid
+# ---------------------------------------------------------
+- Class: SCHEDULED
+  ID: 31358699
+  Description: Changeover of internal and external network path
+  Severity: Outage
+  StartTime: Sep 30, 2018 07:00 +0000
+  EndTime: Sep 30, 2018 12:00 +0000
+  CreatedTime: Sep 28, 2018 06:57 +0000
+  ResourceName: UTA_SWT2_perfSONAR_bandwidth
+  Services:
+  - net.perfSONAR.Bandwidth
+# ---------------------------------------------------------
+- Class: SCHEDULED
+  ID: 31358957
+  Description: Changeover of internal and external network path
+  Severity: Outage
+  StartTime: Sep 30, 2018 07:00 +0000
+  EndTime: Sep 30, 2018 12:00 +0000
+  CreatedTime: Sep 28, 2018 06:58 +0000
+  ResourceName: UTA_SWT2_perfSONAR_latency
+  Services:
+  - net.perfSONAR.Latency
+# ---------------------------------------------------------
